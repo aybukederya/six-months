@@ -1,0 +1,29 @@
+
+# Personal data
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Jupyter outputs (optional)
+# *.ipynb
+
+# Node
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
