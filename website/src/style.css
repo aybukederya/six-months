@@ -113,3 +113,90 @@ footer {
     margin: 75px auto;
   }
 }
+
+
+/* TRACK ME MAP SECTION */
+
+.map-section {
+  margin-top: 55px;
+}
+
+.map-heading {
+  margin-bottom: 25px;
+}
+
+.map-heading h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.map-stats {
+  display: flex;
+  gap: 65px;
+  margin-bottom: 25px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.map-stats strong {
+  display: block;
+  color: #218675;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.map-stats span {
+  display: block;
+  margin-top: 5px;
+  color: #777;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#journey-map {
+  width: 100%;
+  height: 520px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.map-caption {
+  font-size: 11px;
+  color: #888;
+  margin-top: 12px;
+}
+
+.maplibregl-popup-content {
+  font-family: 'DM Sans', sans-serif;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 240px;
+}
+
+.maplibregl-popup-content h3 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.maplibregl-popup-content p {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .map-stats {
+    gap: 25px;
+  }
+
+  .map-stats strong {
+    font-size: 23px;
+  }
+
+  #journey-map {
+    height: 400px;
+  }
+}
+
